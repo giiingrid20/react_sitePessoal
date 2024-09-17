@@ -8,7 +8,7 @@ function Header() {
                 <div className="link-header"><a href="#home">Home</a></div>
                 <div className="link-header"><a href="#sobreMim">Sobre mim</a></div>
                 <div className="link-header"><a href="#curiosidades">Curiosidades</a></div>
-                <div className="link-header"><a href="#habilidade">Habilidades</a></div>
+                <div className='link-header'><a href='#Projetos'>Projetos</a></div>
                 <div className="link-header"><a href="#contatos">Contatos</a></div>
             </div>
         </header>

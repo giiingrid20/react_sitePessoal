@@ -33,9 +33,7 @@ header {
     text-decoration: none;
 }
 
-.iconefooter > a:hover{
-    color: #d971c8;
-}
+
 
 /*Hero*/
 
@@ -437,4 +435,8 @@ footer {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+}
+
+.iconefooter > a:hover{
+    color: #d971c8;
 }

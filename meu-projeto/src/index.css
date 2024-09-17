@@ -32,3 +32,204 @@ header {
   color: white;
   text-decoration: none;
 }
+
+.hero{
+  background-image: url('/public/imgs/hero.png');
+  max-width: 1800px;
+  height: 900px;
+  margin: auto;
+}
+
+.heroTransparencia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  max-width: 1800px;
+  height: 900px;
+}
+
+.heroDireita > img {
+  width: 400px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.heroEsquerda > h1{
+  font-size: 60px;
+  color: #E8CFD2;
+}
+
+.heroEsquerda > div > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.heroEsquerda > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  background-color: #2C2C2C;
+  border-radius: 50px;
+  margin-top: 45px;
+}
+
+.butaohero > a:hover {
+  color: #D97171;
+}
+
+.sobreMim {
+  max-width: 1800px;
+  max-height: 2000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.sobreMim > div > h1 {
+  font-size: 50px;
+  color: #D97171;
+  text-align: center;
+}
+
+.elementosSobremim > div > img {
+  width: 350px;
+  height: 380px;
+  border: solid #D97171;
+  border-radius: 30px;
+
+}
+
+.elementosSobremim{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin-right: 200px;
+  margin-left: 40px;
+  margin: auto;
+}
+
+.elementosSobremim > div > p {
+  font-size: 25px;
+  font-family: serif;
+  margin-bottom: 200px;
+  max-width: 500px;
+  
+}
+
+.curiosidades {
+  max-width: 1800px;
+  max-height: 2100px;
+  margin: auto;
+  background-color: #FFF0EA;
+}
+
+/*título*/
+.elementosCuriosidades > div > h1 {
+  padding-top: 100px;
+  font-size: 50px;
+  color: #D97171;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.cardsCuriosidades{
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  width: 300px;
+  max-height: 352px;
+  background-color: #d6aaaa;
+  border-radius: 20px;
+  box-shadow: #00000046 0px 19px 38px, #00000042 0px 15px 12px;
+  margin: auto;
+}
+
+.card > div > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card > div > p {
+  width: 300px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.card > div > h2 {
+  text-align: center;
+}
+
+
+.portifolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Permite que os cards se ajustem em várias linhas se necessário */
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 20px;
+  max-width: 1300px;
+  height: 959px;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+}
+.portifolio > h1{
+  font-size: 50px;
+  width: 1300px;
+  color: #D97171;
+  
+}
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-text h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  color: #666;
+}
