@@ -5,24 +5,33 @@ function Projetos() {
         <div id='Projetos' className='portifolio'>
             <h1>Meus Projetos</h1>
             <div className='card'>
-                <img src='https://via.placeholder.com/300x200' alt='Projeto 1' />
+                <img src='./imgs/Logo-BlushGlamour.png' alt='Projeto 1' />
                 <div className='card-text'>
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do projeto 1.</p>
+                    <h3>Projeto BlushGlamour</h3>
+                    <p>O Projeto BlushGlamour é um site fictício de vendas de produtos de beleza.</p>
+                    <a href='https://github.com/Everaldo-ifrn/Projeto-BlushGlamour/blob/main/static/imagens/Pagina_principal/Logo-BlushGlamour.png' target='_blank' rel='noopener noreferrer'>
+                    Veja o projeto
+                </a>
                 </div>
             </div>
             <div className='card'>
-                <img src='https://via.placeholder.com/300x200' alt='Projeto 2' />
-                <div className='card-text'>
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do projeto 2.</p>
+                <img src='./imgs/logoLoreta.png' alt='Projeto 2' />
+                <div id='loreta' className='card'>
+                    <h3>Projeto Desenvolvido Sobre professor</h3>
+                    <p>O Projeto foi criado com intuito de aprendizado Sobre Responsividade </p>
+                    <a href='https://github.com/giiingrid20/projeto_site-prof'>
+                    Veja o projeto
+                    </a>
                 </div>
             </div>
             <div className='card'>
-                <img src='https://via.placeholder.com/300x200' alt='Projeto 3' />
+                <img id='imagemcafe' src='./imgs/logoCafe.jpg' alt='Projeto 3' />
                 <div className='card-text'>
-                    <h3>Projeto 3</h3>
-                    <p>Descrição do projeto 3.</p>
+                    <h3>Projeto Café</h3>
+                    <p>Projeto Desenvolvido em aula de Autoria web</p>
+                    <a href='https://github.com/giiingrid20/aweb/tree/main/Blog-ch%C3%A1'>
+                    Veja o projeto
+                    </a>
                 </div>
             </div>
         </div>

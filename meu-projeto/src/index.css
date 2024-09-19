@@ -204,17 +204,27 @@ header {
   border-radius: 8px;
   overflow: hidden;
   width: 400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px);
+
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+#imagemcafe {
+width: 150px;
+}
+
+
+h3, p, a > .card {
+  margin: auto;
+}
+
 .card img {
-  width: 100%;
+  width: 400px;
   height: auto;
 }
 
@@ -223,13 +233,88 @@ header {
 }
 
 .card-text h3 {
-  margin: 0;
   font-size: 1.5rem;
   color: #333;
 }
 
 .card-text p {
-  margin: 10px 0 0;
+  margin: 1px 0 0;
   font-size: 1rem;
   color: #666;
+}
+
+footer {
+  max-width: 1800px;
+  max-height: 400px ;
+  background-color: black;
+  margin: auto;
+}
+.footerdiv1 > h2 {
+  color: white;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footerdiv1 > div > i {
+  color: white;
+  font-size: 50px;
+}
+
+.footerdiv1 > div > a:hover {
+  color: #d971c8;
+}
+
+
+.footerdiv1 > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.footerdiv2 > h2 {
+  color: white;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footerdiv2 > h6 {
+  color: white;
+  font-size: 25px;
+  margin-top: 13px;
+}
+
+.elementosFooter {
+  display: flex;
+  margin-left: 180px;
+  flex-wrap: wrap;
+}
+
+.footerdiv1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footerdiv2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.iconefooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementosFooter > div > img {
+  height: 180px;
+  border-radius: 50%;
 }
