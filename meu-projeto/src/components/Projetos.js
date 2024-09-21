@@ -2,8 +2,9 @@ import React from 'react';
 
 function Projetos() {
     return (
+        
         <div id='Projetos' className='portifolio'>
-            <h1>Meus Projetos</h1>
+           
             <div className='card'>
                 <img src='./imgs/Logo-BlushGlamour.png' alt='Projeto 1' />
                 <div className='card-text'>
@@ -16,7 +17,7 @@ function Projetos() {
             </div>
             <div className='card'>
                 <img src='./imgs/logoLoreta.png' alt='Projeto 2' />
-                <div id='loreta' className='card'>
+                <div id='loreta' className='card-text'>
                     <h3>Projeto Desenvolvido Sobre professor</h3>
                     <p>O Projeto foi criado com intuito de aprendizado Sobre Responsividade </p>
                     <a href='https://github.com/giiingrid20/projeto_site-prof'>

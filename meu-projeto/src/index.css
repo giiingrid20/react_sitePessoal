@@ -95,6 +95,7 @@ header {
   font-size: 50px;
   color: #D97171;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .elementosSobremim > div > img {
@@ -125,7 +126,7 @@ header {
 
 .curiosidades {
   max-width: 1800px;
-  max-height: 2100px;
+  max-height: 2500px;
   margin: auto;
   background-color: #FFF0EA;
 }
@@ -180,6 +181,7 @@ header {
 }
 
 
+
 .portifolio {
   display: flex;
   justify-content: space-around;
@@ -187,16 +189,14 @@ header {
   gap: 20px; /* Espaçamento entre os cards */
   padding: 20px;
   max-width: 1300px;
-  height: 959px;
+  max-height: 1500px;
   margin: auto;
-  margin-top: 100px;
+  padding-bottom: 200px;
   align-items: center;
 }
-.portifolio > h1{
-  font-size: 50px;
-  width: 1300px;
-  color: #D97171;
-  
+#tituloProjetos {
+  padding-top: 200px;
+  margin-bottom: 30px;
 }
 .card {
   background: #fff;
@@ -237,13 +237,16 @@ h3, p, a > .card {
   color: #333;
 }
 
+
+
 .card-text p {
-  margin: 1px 0 0;
   font-size: 1rem;
   color: #666;
 }
 
 footer {
+  display: flex;
+  justify-content: flex-end;
   max-width: 1800px;
   max-height: 400px ;
   background-color: black;
@@ -259,7 +262,7 @@ footer {
 
 .footerdiv1 > div > i {
   color: white;
-  font-size: 50px;
+  font-size: 500px;
 }
 
 .footerdiv1 > div > a:hover {
@@ -270,7 +273,81 @@ footer {
 .footerdiv1 > div > a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.footerdiv2 > h2 {
+  color: white;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+}
+
+.footerdiv2 > h6 {
+  color: white;
+  font-size: 15px;
+  margin-top: 13px;
+}
+
+.elementosFooter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footerdiv1 {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footerdiv2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.iconefooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementosFooter > div > img {
+  height: 180px;
+  border-radius: 50%;
+}
+
+footer {
+  max-width: 1800px;
+  max-height: 400px ;
+  background-color: black;
+  margin: auto;
+  display: flex;
+}
+
+.footerdiv1 > h2 {
+  color: white;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.footerdiv1 > div > a:hover {
+  color: #d971c8;
+}
+
+
+.footerdiv1 > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
   margin-left: 10px;
 }
 
@@ -284,22 +361,19 @@ footer {
 
 .footerdiv2 > h6 {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 13px;
 }
 
 .elementosFooter {
   display: flex;
-  margin-left: 180px;
   flex-wrap: wrap;
 }
 
 .footerdiv1 {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .footerdiv2 {
